@@ -1,219 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/responsive.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
     <title>Technical Documentation</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav id="navbar">
-        <header>Sarfaraz's Documentation</header>
-        <ul>
-            <li><a class="nav-link" href="#Heat_Exchanger">Heat Exchanger</a></li>
-            <li><a class="nav-link" href="#Classification_of_Heat_Exchanger">Classification of Heat Exchanger</a></li>
-            <li><a class="nav-link" href="#Tabular_Heat_Exchanger">Tabular Heat Exchanger</a></li>
-            <li><a class="nav-link" href="#Double_Pipe_Heat_Exchanger">Double Pipe Heat Exchanger</a></li>
-            <li><a class="nav-link" href="#Heat_Transfer_Coefficient">Heat Transfer Coefficient</a></li>
-            <li><a class="nav-link" href="#Advantages_of_coils">Advantages of coils</a></li>
-            <li><a class="nav-link" href="#Applications">Applications</a></li>
-            <li><a class="nav-link" href="#Python_Code">Python Code</a></li>
-            <li><a class="nav-link" href="#Reference">Reference</a></li>
-        </ul>
+      <header>Sarfaraz's Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Heat_Exchanger">Heat Exchanger</a></li>
+        <li>
+          <a class="nav-link" href="#Classification_of_Heat_Exchanger"
+            >Classification of Heat Exchanger</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Tabular_Heat_Exchanger"
+            >Tabular Heat Exchanger</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Double_Pipe_Heat_Exchanger"
+            >Double Pipe Heat Exchanger</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Heat_Transfer_Coefficient"
+            >Heat Transfer Coefficient</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Advantages_of_coils"
+            >Advantages of coils</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Applications">Applications</a></li>
+        <li><a class="nav-link" href="#Python_Code">Python Code</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
     </nav>
 
     <main id="main-doc">
+      <section class="main-section" id="Heat_Exchanger">
+        <header>Heat Exchanger</header>
+        <article>
+          <p>
+            Heat exchange between flowing fluids is one of the most important
+            physical process of concern, and a variety of heat exchangers are
+            used in different type of installations, as in process industries,
+            compact heat exchangers nuclear power plant, HVACs, food processing,
+            refrigeration, etc.
+          </p>
+          <p>
+            The purpose of constructing a heat exchanger is to get an efficient
+            method of heat transfer from one fluid to another, by direct contact
+            or by indirect contact. The heat transfer occurs by three
+            principles: conduction, convection and radiation. In a heat
+            exchanger the heat transfer through radiation is not taken into
+            account as it is negligible in comparison to conduction and
+            convection. Conduction takes place when the heat from the high
+            temperature fluid flows through the surrounding solid wall.
+          </p>
+          <p>
+            The conductive heat transfer can be maximized by selecting a minimum
+            thickness of wall of a highly conductive material. But convection is
+            plays the major role in the performance of a heat exchanger. Forced
+            convection in a heat exchanger transfers the heat from one moving
+            stream to another stream through the wall of the pipe. The cooler
+            fluid removes heat from the hotter fluid as it flows along or across
+            it.
+          </p>
+          <p>Some of the examples of heat exchangers are:</p>
+          <ul>
+            <li>Intercoolers and pre heaters</li>
+            <li>Condensers and boilers in refrigeration units</li>
+            <li>Condensers and boilers in steam plant</li>
+            <li>Regenerators</li>
+            <li>Oil coolers and heat engines</li>
+            <li>Automobile radiators etc</li>
+          </ul>
+        </article>
+      </section>
 
-        <section class="main-section" id="Heat_Exchanger">
-            <header>Heat Exchanger</header>
-            <article>
-                <p>
-                    Heat exchange between flowing fluids is one of the most important physical process of
-                    concern, and a variety of heat exchangers are used in different type of installations, as in
-                    process industries, compact heat exchangers nuclear power plant, HVACs, food processing,
-                    refrigeration, etc.
-                </p>
-                <p>
-                    The purpose of constructing a heat exchanger is to get an efficient method
-                    of heat transfer from one fluid to another, by direct contact or by indirect contact. The heat
-                    transfer occurs by three principles: conduction, convection and radiation. In a heat
-                    exchanger the heat transfer through radiation is not taken into account as it is negligible in
-                    comparison to conduction and convection. Conduction takes place when the heat from
-                    the high temperature fluid flows through the surrounding solid wall.
-                </p>
-                <p>
-                    The conductive heat transfer can be maximized by selecting a
-                    minimum thickness of wall of a highly conductive
-                    material. But convection is plays the major role in the performance of a heat exchanger.
-                    Forced convection in a heat exchanger transfers the heat from one moving stream to another
-                    stream through the wall of the pipe. The cooler fluid removes heat from the hotter fluid
-                    as it flows along or across it.
-                </p>
-                <p>
-                    Some of the examples of heat exchangers are:
-                </p>
-                <ul>
-                    <li>Intercoolers and pre heaters</li>
-                    <li>Condensers and boilers in refrigeration units</li>
-                    <li>Condensers and boilers in steam plant</li>
-                    <li>Regenerators</li>
-                    <li>Oil coolers and heat engines</li>
-                    <li>Automobile radiators etc</li>
-                </ul>
-            </article>
-        </section>
+      <section class="main-section" id="Classification_of_Heat_Exchanger">
+        <header>Classification of Heat Exchanger</header>
+        <article>
+          <img
+            src="image/classification.png"
+            alt="Classification of Heat Exchanger"
+          />
+        </article>
+      </section>
 
-        <section class="main-section" id="Classification_of_Heat_Exchanger">
-            <header>Classification of Heat Exchanger</header>
-            <article>
-                <img src="image/classification.png"
-                    alt="Classification of Heat Exchanger" />
-            </article>
-        </section>
+      <section class="main-section" id="Tabular_Heat_Exchanger">
+        <header>Tabular Heat Exchanger</header>
+        <article>
+          <p>
+            These kinds of heat exchangers are mainly made up of circular coils
+            whereas many different shapes are also used for different
+            applications. They provide flexibility because the geometric
+            parameters such as length, diameter can be modified easily.
+          </p>
+          <p>
+            These are used for phase change such as condensation, evaporation
+            kind of operations. Again, it is classified in to three different
+            categories i.e. double pipe heat exchanger, spiral tube heat
+            exchanger and shell and tube heat exchanger.
+          </p>
+        </article>
+      </section>
 
-        <section class="main-section" id="Tabular_Heat_Exchanger">
-            <header>Tabular Heat Exchanger</header>
-            <article>
-                <p>
-                    These kinds of heat exchangers are mainly made up of circular coils whereas many different
-                    shapes are also used for different applications. They provide flexibility because the
-                    geometric parameters such as length, diameter can be modified easily.
-                </p>
-                <p>
-                    These are used for phase change such as condensation, evaporation kind of operations.
-                    Again, it is classified in to three different categories i.e.
-                    double pipe heat exchanger, spiral tube heat exchanger and
-                    shell and tube heat exchanger.
-                </p>
-            </article>
-        </section>
+      <section class="main-section" id="Double_Pipe_Heat_Exchanger">
+        <header>Double Pipe Heat Exchanger</header>
+        <article>
+          <p>
+            These are the simplest heat exchangers used in industries. These
+            heat exchangers are cheap for both design and maintenance, making
+            them a good choice for small industries. In this kind of heat
+            exchanger, two tubes or pipes having different diameters are placed
+            concentrically, the smaller one inside the larger one. The two
+            fluids, in between which heat transfer is required, flows in the two
+            different tubes.
+          </p>
+          <p>
+            The curvature of the tube gives rise to a secondary flow which makes
+            the flow turbulent and increases the heat transfer rate. The
+            utilization, conversion, and recovery of energy in commercial,
+            industrial, and domestic applications usually involve a heat
+            transfer process such as refrigerator, air conditioner etc. Improved
+            quality of heat exchanger above the usual practice can significantly
+            improve the thermal efficiency as well as the economics of their
+            design and production.
+          </p>
+          <p>
+            It has been observed that heat transfer rate in helical coils heat
+            exchanger are higher than that of a straight tube. They are also
+            compact in size. For this helical coil heat exchangers are being
+            widely used in many industrial applications such as nuclear
+            industries, power generation, process plants, refrigeration, heat
+            recovery systems, food industries, etc. The reason behind higher
+            heat transfer rate of helical heat exchanger is that, due to the
+            swirl flow in a coiled tube, centrifugal forces arises which gives
+            rise to secondary flow pattern. It consists of two vertices
+            perpendicular to the axial flow direction. As a result, the heat
+            transfer takes place by diffusion in the radial direction and by
+            convection.
+          </p>
+          <p>
+            The contribution of the convective heat transfer dominates the
+            overall process and significantly enhances the heat transfer rate
+            per unit length of the tube, as compared to the heat transfer rate
+            of a straight tube of equal length. Also, the coiled tube heat
+            exchanger can provide a larger heat transfer area per unit volume
+            having compact size.
+          </p>
+        </article>
+      </section>
 
-        <section class="main-section" id="Double_Pipe_Heat_Exchanger">
-            <header>Double Pipe Heat Exchanger</header>
-            <article>
-                <p>
-                    These are the simplest heat exchangers used in industries. These heat exchangers are cheap
-                    for both design and maintenance, making them a good choice for small industries. In this
-                    kind of heat exchanger, two tubes or pipes having different diameters are placed
-                    concentrically, the smaller one inside the larger one. The two fluids, in between which heat
-                    transfer is required, flows in the two different tubes.
-                </p>
-                <p>
-                    The curvature of the tube gives rise to a
-                    secondary flow which makes the flow turbulent and increases the heat transfer rate. The
-                    utilization, conversion, and recovery of energy in commercial, industrial, and domestic
-                    applications usually involve a heat transfer process such as refrigerator, air conditioner etc.
-                    Improved quality of heat exchanger above the usual practice can significantly improve the
-                    thermal efficiency as well as the economics of their design and production.
-                </p>
-                <p>
-                    It has been
-                    observed that heat transfer rate in helical coils heat exchanger are higher than that of a
-                    straight tube. They are also compact in size. For this helical coil heat exchangers are
-                    being widely used in many industrial applications such as nuclear industries, power
-                    generation, process plants, refrigeration, heat recovery systems, food industries, etc. The
-                    reason behind higher heat transfer rate of helical heat exchanger is that, due to the swirl flow
-                    in a coiled tube, centrifugal forces arises which gives rise to secondary flow pattern. It
-                    consists of two vertices perpendicular to the axial flow direction. As a result, the heat
-                    transfer takes place by diffusion in the radial direction and by convection.
-                </p>
-                <p>
-                    The contribution of the convective heat transfer dominates the overall process and significantly
-                    enhances the heat transfer rate per unit length of the tube, as compared to the heat transfer
-                    rate of a straight tube of equal length. Also, the coiled tube heat exchanger can provide a
-                    larger heat transfer area per unit volume having compact size.
-                </p>
-            </article>
-        </section>
+      <section class="main-section" id="Heat_Transfer_Coefficient">
+        <header>Heat Transfer Coefficient</header>
+        <p>
+          Convective heat transfer is the transfer of heat from one place to
+          another by the movement of fluids due to the difference in density
+          across a film of the surrounding fluid over the hot surface. Through
+          this film heat transfer takes place by thermal conduction and as
+          thermal conductivity of most fluids is low, the main resistance lies
+          there. Heat transfer through the film can be enhanced by increasing
+          the velocity of the fluid flowing over the surface which results in
+          reduction in thickness of film.
+        </p>
+      </section>
 
-        <section class="main-section" id="Heat_Transfer_Coefficient">
-            <header>Heat Transfer Coefficient</header>
-            <p>
-                Convective heat transfer is the transfer of heat from one place to another by the movement
-                of fluids due to the difference in density across a film of the surrounding fluid over the hot
-                surface. Through this film heat transfer takes place by thermal conduction and as thermal
-                conductivity of most fluids is low, the main resistance lies there. Heat transfer through the
-                film can be enhanced by increasing the velocity of the fluid flowing over the surface which
-                results in reduction in thickness of film.
-            </p>
-        </section>
+      <section class="main-section" id="Advantages_of_coils">
+        <header>Advantages of coils</header>
+        <article>
+          <ul>
+            <li>
+              Helical coils give better heat transfer characteristics, since
+              they have lower wall resistance & higher process side coefficient.
+            </li>
+            <li>
+              The whole surface area of the curved pipe is exposed to the moving
+              fluid, which eliminates the dead-zones that are a common drawback
+              in the shell and tube type heat exchanger.
+            </li>
+            <li>
+              A helical coil offers a larger surface area in a relatively
+              smaller reactor volume and a lesser floor area.
+            </li>
+            <li>
+              The spring-like coil of the helical coil heat exchanger eliminates
+              thermal expansion and thermal shock problems, which helps in high
+              pressure operations
+            </li>
+            <li>
+              Fouling is comparatively less in helical coil type than shell and
+              tube type because of greater turbulence created inside the curved
+              pipes
+            </li>
+          </ul>
+        </article>
+      </section>
 
-        <section class="main-section" id="Advantages_of_coils">
-            <header>Advantages of coils</header>
-            <article>
-                <ul>
-                    <li>Helical coils give better heat transfer characteristics, since they have lower wall
-                        resistance & higher process side coefficient.</li>
-                    <li>The whole surface area of the curved pipe is exposed to the moving fluid, which
-                        eliminates the dead-zones that are a common drawback in the shell and tube type
-                        heat exchanger.</li>
-                    <li>A helical coil offers a larger surface area in a relatively smaller reactor volume and a
-                        lesser floor area. </li>
-                    <li>The spring-like coil of the helical coil heat exchanger eliminates thermal expansion
-                        and thermal shock problems, which helps in high pressure operations</li>
-                    <li>Fouling is comparatively less in helical coil type than shell and tube type because of
-                        greater turbulence created inside the curved pipes</li>
-                </ul>
-            </article>
-        </section>
+      <section class="main-section" id="Applications">
+        <header>Applications</header>
+        <article>
+          <ul>
+            <li>
+              Helical coils are used for transferring heat in chemical reactors
+              because the heat transfer coefficients are greater in helical
+              coils as compared to other configurations. This is especially
+              important when chemical reactions have high heats of reaction are
+              carried out and the heat generated (or consumed) has to be
+              transferred rapidly to maintain the temperature of the reaction.
+              They are used widely in petroleum industries for different
+              applications.
+            </li>
+            <li>
+              The helical coils have a compact configuration, and because of
+              that they can be readily used in heat transfer application with
+              space limitations, for example, marine cooling systems, central
+              cooling, cooling of lubrication oil, steam generations in marine
+              and industrial applications.
+            </li>
+            <li>
+              The helical coiled heat exchangers are used widely in food and
+              beverage industries, like in food processing and pre-heating,
+              pasteurization of liquid food items, and for storing them at
+              desired temperatures.
+            </li>
+            <li>
+              Used in hydro carbon processing for the recovery of CO2, cooling
+              of liquid hydrocarbons, also used in polymer industries for
+              cooling purposes.
+            </li>
+          </ul>
+        </article>
+      </section>
 
-        <section class="main-section" id="Applications">
-            <header>Applications</header>
-            <article>
-                <ul>
-                    <li>Helical coils are used for transferring heat in chemical reactors because the heat
-                        transfer coefficients are greater in helical coils as compared to other configurations.
-                        This is especially important when chemical reactions have high heats of reaction are
-                        carried out and the heat generated (or consumed) has to be transferred rapidly to
-                        maintain the temperature of the reaction. They are used widely in petroleum
-                        industries for different applications.</li>
-                    <li>The helical coils have a compact configuration, and because of that they can be
-                        readily used in heat transfer application with space limitations, for example, marine
-                        cooling systems, central cooling, cooling of lubrication oil, steam generations in
-                        marine and industrial applications.</li>
-                    <li>The helical coiled heat exchangers are used widely in food and beverage industries,
-                        like in food processing and pre-heating, pasteurization of liquid food items, and for
-                        storing them at desired temperatures.</li>
-                    <li>Used in hydro carbon processing for the recovery of CO2, cooling of liquid
-                        hydrocarbons, also used in polymer industries for cooling purposes.</li>
-                </ul>
-            </article>
-        </section>
+      <section class="main-section" id="Python_Code">
+        <header>Python Code</header>
+        <article>
+          <h4>
+            I am writing these codes because atleast 5 codes are required to
+            pass the test.
+          </h4>
+          <p>Hello World!</p>
+          <code>print("Hello World!")</code>
+          <p>Declaring Variables</p>
+          <code>x=13<br />print(x)</code>
+          <p>List</p>
+          <code>mylist=[1,2,3,4,5]<br />print(mylist[2])</code>
+          <p>Operator</p>
+          <code>rem = 11 % 3<br />print(rem)</code>
+          <p>loop</p>
+          <code>for x in range(5):<br />&nbsp;&nbsp;&nbsp;&nbsp;print(x)</code>
+        </article>
+      </section>
 
-        <section class="main-section" id="Python_Code">
-            <header>Python Code</header>
-            <article>
-                <h4>I am writing these codes because atleast 5 codes are required to pass the test.</h4>
-                <p>Hello World!</p>
-                <code>print("Hello World!")</code>
-                <p>Declaring Variables</p>
-                <code>x=13<br>print(x)</code>
-                <p>List</p>
-                <code>mylist=[1,2,3,4,5]<br>print(mylist[2])</code>
-                <p>Operator</p>
-                <code>rem = 11 % 3<br>print(rem)</code>
-                <p>loop</p>
-                <code>for x in range(5):<br>&nbsp;&nbsp;&nbsp;&nbsp;print(x)</code>
-            </article>
-        </section>
-
-        <section class="main-section" id="Reference">
-            <header>Reference</header>
-            <article>
-                <ul>
-                    <li>
-                        All the content in this page is taken from my final year thesis
-                        <a href="https://drive.google.com/file/d/13kN406Xva9pytVR7jYV21wqktklSKpqu/view?usp=sharing"
-                            target="_blank">Chapter1: Introduction</a>
-                    </li>
-                </ul>
-            </article>
-        </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All the content in this page is taken from my final year thesis
+              <a
+                href="https://drive.google.com/file/d/13kN406Xva9pytVR7jYV21wqktklSKpqu/view?usp=sharing"
+                target="_blank"
+                >Chapter1: Introduction</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
