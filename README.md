@@ -9,6 +9,6 @@
   
 ## Author
 
-- [@Sarfaraz](https://www.github.com/GoogolDKhan)
+- This project is inspired by [FCC: Technical Documentation Page](https://codepen.io/freeCodeCamp/full/NdrKKL)
 
 - Dated : 27-05-2021
