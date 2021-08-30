@@ -1,4 +1,4 @@
-# Technical Documentation Page
+# Technical Documentation Page [![CodeFactor](https://www.codefactor.io/repository/github/googoldkhan/technical-documentation-page/badge)](https://www.codefactor.io/repository/github/googoldkhan/technical-documentation-page)
 
 - Responsive Web Design
 
